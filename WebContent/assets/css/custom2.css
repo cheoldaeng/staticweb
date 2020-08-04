@@ -1,0 +1,17 @@
+@font-face{
+  font-family:'NanumBarunGothic';
+  src:url("../fonts/NanumBarunGothic.eot");
+  src:local("☺"),url("../fonts/NanumBarunGothic.woff") format("woff");
+}
+
+@font-face{
+  font-family:'NanumGothic';
+  src:url("../fonts/NanumGothic.eot");
+  src:local("☺"),url("../fonts/NanumGothic.woff") format("woff");
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "NanumBarunGothic", "Nanum Gothic", sans-serif;
+}

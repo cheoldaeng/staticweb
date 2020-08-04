@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Generic - Transitive by TEMPLATED</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<link href="../assets/css/main2.css" rel="stylesheet">
+	<link href="../assets/css/bootstrap.css" rel="stylesheet">
+	<link href="../assets/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="../assets/css/custom2.css" rel="stylesheet">
+	<link href="../assets/css/top_header.css" rel="stylesheet">
+	<link href="../assets/css/main_highlight.css" rel="stylesheet">
+	<link href="../assets/css/main_cta.css" rel="stylesheet">
+	<link href="../assets/css/main_Testimonials.css" rel="stylesheet">
+	<link href="../assets/css/footer.css" rel="stylesheet">
+	<link href="../assets/css/top_nav.css" rel="stylesheet">
+	<link href="../assets/css/main.css" rel="stylesheet">
+	<link href="../assets/css/form_input_label_button.css" rel="stylesheet">
+</head>
+
+<body class="subpage">
+
+<!-- Header -->
+<header id="header">
+	<a class="logo" href="main.html">Industrious</a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
+
+<!-- Nav -->
+<nav id="menu">
+	<ul class="links">
+		<div>
+       	<a href="login.html">login</a>
+       	 | <a href="join.html">join</a><br>
+
+      	</div>
+      	
+		<li><a href="main.html">Home</a></li>
+		<li><a href="../board/fileBoard.html">board</a></li>
+
+	</ul>
+</nav>
+
+<article>
+
+<section id="one" class="wrapper style2">
+	<div class="inner">
+		<div class="box">
+			<h1>회원가입</h1>
+			<form id="join" action="main.html">   
+			<fieldset>
+				<legend>Basic Info</legend>
+				<label>User ID</label> <input name="id" type="text" class="id">
+				<input type="button" value="ID중복확인" class="dup" onclick=""><br>
+				<label>Password</label> <input id="passwd" name="passwd" type="password" class="pass"><br>
+				<label>Retype Password</label> <input id="passwd2" name="passwd2" type="password" class="pass">
+				<span id="passwdMessage"></span><br>
+				<label>Name</label> <input name="name" type="text" class="nick"><br>
+				<label>Age</label> <input  type= "number" name = "age" mim="0" max="150"><br>
+				<label>Gender</label> <input  type= "radio" name = "gender" value="남">남자
+					 				<input  type= "radio" name = "gender" value="여">여자<br>
+				<label>E-Mail</label> <input name="email" type="email" class="email" ><br>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Optional</legend>
+				<label>Address</label> <input name="address" type="text" class="address"><br>
+				<label>Phone Number</label> <input name="tel" type="tel" class="phone"><br>
+				<label>Mobile Phone Number</label> <input name="mtel" type="tel" class="mobile"><br>
+			</fieldset>
+		
+			<div class="clear"></div>
+			<div id="buttons">
+				<input type="button" value="회원가입" style="background-color: #d3d3d3;" onClick="location.href='main.html'">
+				<input type="reset" value="새로작성" class="cancel">
+			</div>
+			</form> 
+			</div>
+		</div>
+	</section>	
+</article>
+	
+	<div class="clear"></div>
+
+<script src="../js/includeHTML.js"></script>
+	<!-- Footer -->
+<div include-html="../include/bottom_footer.html"></div>
+<script>includeHTML();</script>
+
+
+<script src="../js/jquery-3.5.1.js"></script>
+<script src="../js/bootstrap.js"></script>
+<!-- Scripts -->
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/browser.min.js"></script>
+<script src="../assets/js/breakpoints.min.js"></script>
+<script src="../assets/js/util.js"></script>
+<script src="../assets/js/main.js"></script>
+		
+
+</body>
+</html>   
+
